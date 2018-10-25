@@ -13,13 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mas.Domain.UserCenter", "Pl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{C12B9579-CB2E-4BF6-ADF0-7734DC9B7B2F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserCenter", "Platform\Presentation\UserCenter\UserCenter.csproj", "{E9D3924B-41E3-47AD-A97D-422BACCCED52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mas.Grant.UserCenter", "Platform\Presentation\UserCenter\Mas.Grant.UserCenter.csproj", "{E9D3924B-41E3-47AD-A97D-422BACCCED52}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{1BE893D9-92BB-4D16-A5FD-25B7944398F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mas.Tool.Common", "Platform\Tools\Mas.Tool.Common\Mas.Tool.Common.csproj", "{3C515CD1-106E-4AD5-9BB0-B2F99EC306DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mas.Tool.Common", "Platform\Tools\Mas.Tool.Common\Mas.Tool.Common.csproj", "{3C515CD1-106E-4AD5-9BB0-B2F99EC306DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mas.Tool.Web", "Platform\Tools\Mas.Tool.Web\Mas.Tool.Web.csproj", "{0E83B4D0-0653-4980-AA69-4BDC760ED5F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mas.Tool.Web", "Platform\Tools\Mas.Tool.Web\Mas.Tool.Web.csproj", "{0E83B4D0-0653-4980-AA69-4BDC760ED5F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
