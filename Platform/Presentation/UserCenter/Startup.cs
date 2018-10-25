@@ -42,6 +42,8 @@ namespace UserCenter
                 options.UseSqlServer(connection, b => b.MigrationsAssembly("Mas.Domain.UserCenter")));
             services.AddMvc();
 
+            //services.ConfigureMvcServices();
+            //services.ConfigureMvcClientAuthServices("{0}_charge_client", Configuration.GetConnectionString("SqlServer"));
 
             services.AddIdentityServer()
               .AddInMemoryClients(Clients.Get())
