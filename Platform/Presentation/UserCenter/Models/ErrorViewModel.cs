@@ -1,6 +1,6 @@
 using System;
 
-namespace UserCenter.Models
+namespace Mas.Grant.UserCenter.Models
 {
     public class ErrorViewModel
     {

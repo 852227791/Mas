@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using UserCenter.Models;
+using Mas.Grant.UserCenter.Models;
 
-namespace UserCenter.Controllers
+namespace Mas.Grant.UserCenter.Controllers
 {
     public class HomeController : Controller
     {

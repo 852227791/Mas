@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace UserCenter.Controllers.Account
+namespace Mas.Grant.UserCenter.Controllers.Account
 {
     public class AccountController : Controller
     {
