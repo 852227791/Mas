@@ -14,7 +14,7 @@ namespace StackExChangeTest
                 Password = "123456",
                 ClientName="10.120.0.110",
                  EndPoints={
-                      { "10.120.0.110", 6379 },
+                      { "192.168.137.112", 6379 },
                  }
             };
             ConnectionMultiplexer redis = ConnectionMultiplexer.Connect(config);
