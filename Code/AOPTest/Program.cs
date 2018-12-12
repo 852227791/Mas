@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace AOPTest
 {
@@ -6,6 +7,7 @@ namespace AOPTest
     {
         static void Main(string[] args)
         {
+            string[] a = new string[] { "2","3"};
             Console.WriteLine("Hello World!");
         }
 

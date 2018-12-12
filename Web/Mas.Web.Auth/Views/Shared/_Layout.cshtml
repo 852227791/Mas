@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Masest Authorization</title>
+    <title> Masest Authorization</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -40,11 +40,11 @@
 
     <partial name="_CookieConsentPartial" />
 
-    <div class="container body-content">
+    <div class="container body-content"   style="padding-bottom:10px;">
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; 2018 - Mas.Web.Auth</p>
+            <p>&copy; 2018-@DateTime.Now.Year -Masest 认证中心</p>
         </footer>
     </div>
 
